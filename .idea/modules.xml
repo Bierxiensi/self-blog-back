@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/blogForYZ/blogForYZ.iml" filepath="$PROJECT_DIR$/blogForYZ/blogForYZ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blogForYZ/personInfoModel/personInfoModel.iml" filepath="$PROJECT_DIR$/blogForYZ/personInfoModel/personInfoModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blogForYZ/personalInfo.iml" filepath="$PROJECT_DIR$/blogForYZ/personalInfo.iml" />
       <module fileurl="file://$PROJECT_DIR$/zxyaily.iml" filepath="$PROJECT_DIR$/zxyaily.iml" />
     </modules>
   </component>

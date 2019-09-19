@@ -1,10 +1,8 @@
-#类的实例是 WSGI（Web Server Gateway Interface） 应用程序
-from flask import Flask
-app = Flask(__name__)
-from flask_cors import CORS
-CORS(app)
+# from flask import Flask
+# app = Flask(__name__)
 # from flask_cors import CORS
-# # CORS(app, supports_credentials=True)
+# CORS(app, supports_credentials=True)
+# from personInfoModel import app
 
 @app.route('/')
 def index():
@@ -25,4 +23,4 @@ def show_post(post_id):
     return 'Post %d' % post_id
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
